@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background: black;
+}
+h1{
+    position: absolute;
+    font-size: 60px;
+    transform: translate(50%,0);
+    margin-bottom: 200px;
+    font-weight: 400;
+    color: white;
+}
+.head{
+    background: red;
+    height: 30px;
+}
+.form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.form img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 90%;
+    height: 60rem;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.form-container{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+.form-container h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 70px;
+    color: #D9D9D9B2;
+}
+.form-container span, .title{
+    color: #EF4400;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-content input::placeholder{
+    color: #171515CC;
+}
+
+.form-content input{
+    background: #D9D9D9B2;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.form-name{
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    justify-content: space-between;
+}
+
+.form-content button{
+    background: #EF4400;
+    outline: none;
+    border: none;
+    height: 35px;
+    border-radius: 20px;
+    width: 200px;
+    color: #171515;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+    transform: translate(50%, 0);
+}
